@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data/asset";
+import data from "@/data/asset";
 import Dp from "@/components/dp";
 import Infos from "@/components/info";
 import Contact from "@/components/contact";

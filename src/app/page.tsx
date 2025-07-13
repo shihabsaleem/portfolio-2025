@@ -1,5 +1,5 @@
 import Image from "next/image";
-import data from "../data/asset";
+import data from "@/data/asset";
 
 const works = data.works;
 
@@ -26,7 +26,9 @@ export default function Home() {
 
           <div className="w-full lg:w-1/3 border-2 border-gray-900 p-6 rounded-3xl space-y-3">
             <div className="font-semibold text-lg text-white">{work.name}</div>
-            <div className="font-semibold text-sm text-neutral-400">{work.shortdesc}</div>
+            <div className="font-semibold text-sm text-neutral-400">
+              {work.shortdesc}
+            </div>
             <p className="font-normal text-sm text-neutral-400 leading-relaxed">
               {work.description}
             </p>

@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../data/asset";
+import data from "@/data/asset";
 
 import Skill from "@/components/skill";
 import Experience from "@/components/experience";
