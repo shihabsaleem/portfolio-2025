@@ -3,16 +3,18 @@ import data from "../data/asset";
 
 const experiences = data.experience;
 
-const experience = () => {
+const Experience = () => {
   return (
     <div>
-      <div className="font-display text-lg mb-4">Experience</div>
-      <ul className="text-sm space-y-4">
+      <h2 className="font-display text-xl mb-6 border-b border-gray-700 pb-2">
+        Experience
+      </h2>
+      <ul className="space-y-6">
         {experiences.map((exp, index) => (
-          <li key={index}>
-            <div className="font-semibold">{exp.Designation}</div>
-            <div className="text-xs text-neutral-400">{exp.Company}</div>
-            <div className="text-xs text-neutral-400">
+          <li key={index} className="p-4 rounded-lg">
+            <div className="font-semibold ">{exp.Designation}</div>
+            <div className="text-sm text-gray-400">{exp.Company}</div>
+            <div className="text-xs text-gray-500 mt-1">
               {exp.start} - {exp.end}
             </div>
           </li>
@@ -22,4 +24,4 @@ const experience = () => {
   );
 };
 
-export default experience;
+export default Experience;

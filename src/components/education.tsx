@@ -3,17 +3,19 @@ import data from "../data/asset";
 
 const educations = data.education;
 
-const education = () => {
+const Education = () => {
   return (
     <div className="w-full">
-      <div className="font-display text-lg mb-4">Education</div>
-      <ul className="text-sm space-y-4">
-        {educations.map((edu, index) => (
-          <li key={edu.id}>
-            <div className="font-semibold">{edu.qualification}</div>
-            <div className="text-xs text-neutral-400">{edu.College}</div>
-            <div className="text-xs text-neutral-400">{edu.Aff}</div>
-            <div className="text-xs text-neutral-400">
+      <h2 className="font-display text-xl mb-6 border-b border-gray-700 pb-2">
+        Education
+      </h2>
+      <ul className="space-y-6">
+        {educations.map((edu) => (
+          <li key={edu.id} className=" p-4 rounded-lg">
+            <div className="font-semibold ">{edu.qualification}</div>
+            <div className="text-sm text-gray-400">{edu.College}</div>
+            <div className="text-sm text-gray-400">{edu.Aff}</div>
+            <div className="text-xs text-gray-500 mt-1">
               {edu.start} - {edu.end}
             </div>
           </li>
@@ -23,4 +25,4 @@ const education = () => {
   );
 };
 
-export default education;
+export default Education;

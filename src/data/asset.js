@@ -84,23 +84,49 @@ const experience = [
     end: "Jun 2019",
   },
 ];
+
 const skills = [
-  "UI / UX",
+  // 🟢 Core UI/UX Design Skills (Highest Priority)
+  "UI/UX Design",
+  "User Research",
   "Design Thinking",
   "Wireframing & Prototyping",
-  "Usability Test",
+  "Usability Testing",
   "A/B Testing",
-  "Problem Solving",
+  "Accessibility (WCAG Principles)",
+  "Interaction Design (IxD)",
+  "Information Architecture",
+  "Microinteractions & UX Animation",
+  "Responsive & Adaptive Design",
+  "Visual Design",
+  "Typography for UI",
+  "Color Theory & Design Systems",
+
+  // 🟡 Key Tools for UI/UX (Supporting)
   "Figma",
   "Adobe Photoshop & Illustrator",
-  "ReactJS & Angular (Basic)",
-  "HTML + CSS",
+  "Miro / FigJam",
+
+  // 🔵 Frontend for Collaboration / Implementation (Secondary)
+  "HTML & CSS",
   "TailwindCSS",
   "Bootstrap",
-  "Javascript",
+  "JavaScript ",
+  "ReactJS",
+  "Angular",
   "Git & GitHub",
+
+  // 🟣 CMS & Page Builders (Nice to have)
   "WordPress",
-  "Beaver Builder + Elementor",
+  "Beaver Builder",
+  "Elementor",
+
+  // ⚪ Soft Skills (Essential but Secondary to UI/UX)
+  "Problem Solving",
+  "Collaboration with Developers",
+  "Communication",
+  "Attention to Detail",
+  "Time Management"
 ];
 
 export default { works, info, education, experience, skills };

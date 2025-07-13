@@ -3,14 +3,14 @@ import data from "@/data/asset";
 
 const infos = data.info[0];
 
-const info = () => {
+const Info = () => {
   return (
-    <div>
-      <div className="text-xs">Hi, I'm</div>
-      <div className="font-semibold text-lg">{infos.name}</div>
-      <div className="font-normal text-xs text-neutral-400 ">{infos.desc}</div>
-    </div>
+    <section aria-label="User introduction">
+      <p className="text-xs py-1">Hi, I'm</p>
+      <h1 className="font-semibold text-lg py-1">{infos.name}</h1>
+      <p className="font-normal text-xs text-neutral-400 py-1 leading-6">{infos.desc}</p>
+    </section>
   );
 };
 
-export default info;
+export default Info;

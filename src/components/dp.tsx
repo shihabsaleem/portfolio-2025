@@ -4,18 +4,19 @@ import data from "@/data/asset";
 
 const info = data.info[0];
 
-const dp = () => {
+const Dp = () => {
   return (
-    <div>
+    <div className="w-full h-auto rounded-xl overflow-hidden">
       <Image
         src={info.dp}
         alt={info.name}
-        className="h-auto rounded-xl "
         width={600}
         height={400}
+        className="w-full h-auto object-cover rounded-xl"
+        priority
       />
     </div>
   );
 };
 
-export default dp;
+export default Dp;
