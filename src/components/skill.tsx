@@ -9,11 +9,11 @@ const Skill = () => {
       <h2 className="font-display text-lg mb-4 border-b border-gray-700 pb-2">
         Skill Set
       </h2>
-      <div className="flex flex-wrap gap-3 text-xs">
+      <div className="flex flex-wrap gap-3 text-sm">
         {skills.map((skill, index) => (
           <span
             key={index}
-            className="border-2 border-gray-900 px-3 py-1 rounded-sm  text-white"
+            className="border-2 border-gray-900 px-3 py-1 rounded-sm  text-white hover:text-gray-900 hover:bg-white hover:transition"
           >
             {skill}
           </span>

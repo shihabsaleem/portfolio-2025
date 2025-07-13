@@ -48,7 +48,7 @@ const info = [
 const education = [
   {
     id: 1,
-    qualification: "Bachelor's in Computer Science and Engineering",
+    qualification: "B. Tech in Computer Science and Engineering",
     College: "College of Engineering, Munnar",
     Aff: "APJA Kalam Technological University, Kerala",
     start: "2020",

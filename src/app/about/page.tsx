@@ -10,7 +10,7 @@ const About = () => {
   const info = data.info[0];
 
   return (
-    <div className="flex flex-col lg:flex-row font-sans p-4 sm:p-6 md:p-10 gap-6 md:gap-10">
+    <div className="flex flex-col lg:flex-row font-sans p-3 sm:p-6 md:p-10 gap-6 md:gap-10">
       {/* LEFT COLUMN */}
       <div className="flex flex-col gap-6 w-full lg:w-8/12">
         <div>
