@@ -3,8 +3,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 p-8 gap-16 sm:p-10">
-      <div className="container mx-auto flex items-center justify-between p-4">
+    <nav className="z-50 p-8 gap-16 sm:p-10">
+      <div className="container mx-auto flex items-center justify-between px-6">
         {/* Brand */}
         <Link href="/" className="font-display text-2xl">
           Shihab

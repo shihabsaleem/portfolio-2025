@@ -1,5 +1,7 @@
 import Image from "next/image";
-import works from "../../public/assets/asset"; // or correct path if updated
+import data from "../data/asset";
+
+const works = data.works;
 
 export default function Home() {
   return (
@@ -11,17 +13,17 @@ export default function Home() {
             work.id % 2 === 0 ? "flex-row-reverse" : ""
           }`}
         >
-          <div className="w-2/3 border-2 border-gray-700 p-4 rounded-2xl">
+          <div className="w-2/3 border-2 border-gray-900 p-6 rounded-3xl">
             <Image
-              src={work.filename}
-              alt={work.alt}
+              src={work.image}
+              alt={work.name}
               className="w-full h-auto rounded-xl"
               width={600}
               height={400}
             />
           </div>
 
-          <div className="w-1/3 border-2 border-gray-700 p-4 rounded-2xl space-y-2">
+          <div className="w-1/3 border-2 border-gray-900 p-6 rounded-3xl space-y-2">
             <div className="font-semibold text-lg text-white">{work.name}</div>
             <div className="font-semibold text-sm text-neutral-400">
               {work.shortdesc}
