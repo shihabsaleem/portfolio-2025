@@ -1,11 +1,11 @@
 const works = [
   {
     id: 1,
-    name: "Parrot Vacation",
-    image: "/assets/parrot.jpg",
-    shortdesc: "Branding",
+    name: "Inventory",
+    image: "/assets/inventory.jpg",
+    shortdesc: "UI / UX Designing",
     description:
-      "The Parrot Vacation logo blends a parrot, location pin, and the letter &lsquo;P&rsquo; into a simple, modern mark. Inspired by parakeet colors, it reflects travel, freedom, and exploration with a clean, minimalist style.",
+      "Inventory is a clean, intuitive UI/UX design solution crafted for a mid-sized snack manufacturing company. The design helps streamline the management of storage, production, and inventory processes with user-friendly interfaces focused on clarity and efficiency. Built to support day-to-day operations, it enhances visibility and control across all stages of production and supply..",
   },
   {
     id: 2,
@@ -25,25 +25,25 @@ const works = [
   },
   {
     id: 4,
-    name: "Acuverse",
+    name: "Parrot Vacation",
     image: "/assets/parrot.jpg",
     shortdesc: "Branding",
-    description: "A beautiful, tropical parrot sitting on a branch.",
+    description:
+      "The Parrot Vacation logo blends a parrot, location pin, and the letter &lsquo;P&rsquo; into a simple, modern mark. Inspired by parakeet colors, it reflects travel, freedom, and exploration with a clean, minimalist style.",
   },
 ];
 
 const info = [
   {
     name: "Shihab Rahman Saleem",
-    desc:
-      "As a UI Designer and Front-End Developer, I specialize in designing and building user-centric interfaces that are both visually striking and technically sound. With a background in graphic design and a strong command of HTML, CSS, and JavaScript frameworks, I bring a unique blend of creative vision and development precision to every project.",
+    desc: "As a UI Designer and Front-End Developer, I specialize in designing and building user-centric interfaces that are both visually striking and technically sound. With a background in graphic design and a strong command of HTML, CSS, and JavaScript frameworks, I bring a unique blend of creative vision and development precision to every project.",
     dp: "/assets/shihab.png",
     phone: "+971545217895",
     email: "shihabrsaleem@gmail.com",
     linkedin: "linkedin.com/in/shihab-rahman",
     github: "github.com/shihabsaleem",
-    insta: "instgram.com/shihabrsaleem",
-    cv: "/assets/shihab-rahman-saleem.pdf",
+    insta: "instagram.com/shihabrsaleem",
+    cv: "/assets/shihab.pdf",
   },
 ];
 
