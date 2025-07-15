@@ -3,7 +3,6 @@ const nextConfig = {
   images: { unoptimized: true },
   basePath: '',
   trailingSlash: true,
-  distDir:'dist',
 };
 
 export default nextConfig;
