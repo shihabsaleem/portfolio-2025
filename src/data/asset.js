@@ -4,21 +4,24 @@ const works = [
     name: "Parrot Vacation",
     image: "/assets/parrot.jpg",
     shortdesc: "Branding",
-    description: "The Parrot Vacation logo blends a parrot, location pin, and the letter ‘P’ into a simple, modern mark. Inspired by parakeet colors, it reflects travel, freedom, and exploration with a clean, minimalist style.",
+    description:
+      "The Parrot Vacation logo blends a parrot, location pin, and the letter &lsquo;P&rsquo; into a simple, modern mark. Inspired by parakeet colors, it reflects travel, freedom, and exploration with a clean, minimalist style.",
   },
   {
     id: 2,
     name: "ADOVO",
     image: "/assets/adovo.jpg",
     shortdesc: "Branding",
-    description: "The Adovo logo combines a wordmark with an abstract symbol, reflecting the fusion of technology and creativity. Designed with a minimalist approach in midnight blue with white background, it captures the agency's focus on AI-driven innovation with clarity and sophistication.",
+    description:
+      "The Adovo logo combines a wordmark with an abstract symbol, reflecting the fusion of technology and creativity. Designed with a minimalist approach in midnight blue with white background, it captures the agency's focus on AI-driven innovation with clarity and sophistication.",
   },
   {
     id: 3,
     name: "Milkow",
     image: "/assets/milkow.jpg",
     shortdesc: "Branding & Packaging",
-    description: "The Milkow Fresh logo features a friendly mascot combined with a clean wordmark, creating a memorable and approachable brand identity. Designed in solid black to contrast perfectly with the transparent milk bottles and the white milk inside, the minimalist abstract style ensures clarity and versatility, reflecting freshness and trust for our local unpasteurized cow milk.",
+    description:
+      "The Milkow Fresh logo features a friendly mascot combined with a clean wordmark, creating a memorable and approachable brand identity. Designed in solid black to contrast perfectly with the transparent milk bottles and the white milk inside, the minimalist abstract style ensures clarity and versatility, reflecting freshness and trust for our local unpasteurized cow milk.",
   },
   {
     id: 4,
@@ -32,7 +35,8 @@ const works = [
 const info = [
   {
     name: "Shihab Rahman Saleem",
-    desc: "As a UI Designer and Front-End Developer, I specialize in designing and building user-centric interfaces that are both visually striking and technically sound. With a background in graphic design and a strong command of HTML, CSS, and JavaScript frameworks, I bring a unique blend of creative vision and development precision to every project.",
+    desc:
+      "As a UI Designer and Front-End Developer, I specialize in designing and building user-centric interfaces that are both visually striking and technically sound. With a background in graphic design and a strong command of HTML, CSS, and JavaScript frameworks, I bring a unique blend of creative vision and development precision to every project.",
     dp: "/assets/shihab.png",
     phone: "+971545217895",
     email: "shihabrsaleem@gmail.com",
@@ -55,7 +59,7 @@ const education = [
   {
     id: 2,
     qualification: "Diploma in Computer Engineering",
-    College: "St.Marys Polytechnic College,Palakkad",
+    College: "St.Marys Polytechnic College, Palakkad",
     Aff: "Board of Technical Education, Kerala",
     start: "2015",
     end: "2018",
@@ -84,7 +88,6 @@ const experience = [
 ];
 
 const skills = [
-  // 🟢 Core UI/UX Design Skills (Highest Priority)
   "UI/UX Design",
   "User Research",
   "Design Thinking",
@@ -99,13 +102,9 @@ const skills = [
   "Visual Design",
   "Typography for UI",
   "Color Theory & Design Systems",
-
-  // 🟡 Key Tools for UI/UX (Supporting)
   "Figma",
   "Adobe Photoshop & Illustrator",
   "Miro / FigJam",
-
-  // 🔵 Frontend for Collaboration / Implementation (Secondary)
   "HTML & CSS",
   "TailwindCSS",
   "Bootstrap",
@@ -113,18 +112,16 @@ const skills = [
   "ReactJS",
   "Angular",
   "Git & GitHub",
-
-  // 🟣 CMS & Page Builders (Nice to have)
   "WordPress",
   "Beaver Builder",
   "Elementor",
-
-  // ⚪ Soft Skills (Essential but Secondary to UI/UX)
   "Problem Solving",
   "Collaboration with Developers",
   "Communication",
   "Attention to Detail",
-  "Time Management"
+  "Time Management",
 ];
 
-export default { works, info, education, experience, skills };
+const assetData = { works, info, education, experience, skills };
+
+export default assetData;

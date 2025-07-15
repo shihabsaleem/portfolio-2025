@@ -1,5 +1,4 @@
 import React from "react";
-import data from "@/data/asset";
 
 import Skill from "@/components/skill";
 import Experience from "@/components/experience";
@@ -7,7 +6,6 @@ import Education from "@/components/education";
 import Bio from "@/components/bio";
 
 const About = () => {
-  const info = data.info[0];
 
   return (
     <div className="flex flex-col lg:flex-row font-sans p-3 sm:p-6 md:p-10 gap-6 md:gap-10">

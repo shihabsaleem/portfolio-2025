@@ -1,9 +1,7 @@
 import React from "react";
-import data from "@/data/asset";
 import Dp from "@/components/dp";
 import ContactInfo from "@/components/contact";
 
-const info = data.info[0];
 
 const Contact = () => {
   return (
