@@ -13,8 +13,8 @@ const Experience = () => {
         {experiences.map((exp, index) => (
           <li key={index} className="px-4 py-2 rounded-lg">
             <div className="font-semibold ">{exp.Designation}</div>
-            <div className="text-sm text-gray-400">{exp.Company}</div>
-            <div className="text-xs text-gray-500 mt-1">
+            <div className="text-xs text-gray-400 py-0.5">{exp.Company}</div>
+            <div className="text-xs text-gray-500 py-0.5">
               {exp.start} - {exp.end}
             </div>
           </li>
