@@ -48,7 +48,7 @@ export default function Home() {
       {works.map((work) => (
         <div
           key={work.id}
-          className={`work flex flex-col-reverse lg:flex-row ${
+          className={`work flex flex-col lg:flex-row ${
             work.id % 2 === 0 ? "lg:flex-row-reverse" : ""
           } gap-6 max-w-screen w-full`}
         >
