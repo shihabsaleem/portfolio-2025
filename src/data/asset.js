@@ -43,7 +43,7 @@ const info = [
     linkedin: "linkedin.com/in/shihab-rahman",
     github: "github.com/shihabsaleem",
     insta: "instagram.com/shihabrsaleem",
-    cv: "/assets/shihab.pdf",
+    cv: "/assets/Shihab.pdf",
   },
 ];
 
