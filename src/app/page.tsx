@@ -34,7 +34,7 @@ export default function Home() {
           }),
         start: "top 70%",
         end: "bottom 60%",
-        markers: false,
+        //markers: false,
       });
     }, containerRef);
 
