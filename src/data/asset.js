@@ -10,7 +10,7 @@ const works = [
   {
     id: 2,
     name: "ADOVO",
-    image: "/assets/adovo.jpg",
+    image: "/assets/adovo-white.jpg",
     shortdesc: "Branding",
     description:
       "The Adovo logo combines a wordmark with an abstract symbol, reflecting the fusion of technology and creativity. Designed with a minimalist approach in midnight blue with white background, it captures the agency's focus on AI-driven innovation with clarity and sophistication.",
