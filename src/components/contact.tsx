@@ -9,20 +9,27 @@ const Contact = ({ layout = "row" }) => {
 
   const contactItems = [
     { label: "Call Me", href: `tel:${info.phone}` },
-    { label: "Text Me", href: `https://wa.me/${info.phone.replace(/[^\d]/g, "")}` },
+    {
+      label: "Text Me",
+      href: `https://wa.me/${info.phone.replace(/[^\d]/g, "")}`,
+    },
     { label: "Download CV", href: `${info.cv}`, external: true },
-    { label: "Email Me", href: `mailto:${info.email}` },
   ];
 
   const iconLinks = [
-    { icon: <FaLinkedin className="w-6 h-6" />, href: `https://${info.linkedin}` },
+    {
+      icon: <FaLinkedin className="w-6 h-6" />,
+      href: `https://${info.linkedin}`,
+    },
     { icon: <FaGithub className="w-6 h-6" />, href: `https://${info.github}` },
   ];
 
   return (
     <div
       className={`${
-        isColumn ? "flex flex-col gap-4" : "grid grid-cols-2 sm:grid-cols-3 lg:flex gap-4"
+        isColumn
+          ? "flex flex-col gap-4"
+          : "grid grid-cols-2 sm:grid-cols-3 lg:flex gap-4"
       }`}
     >
       {contactItems.map((item, idx) => (
@@ -42,11 +49,7 @@ const Contact = ({ layout = "row" }) => {
         </div>
       ))}
 
-      <div
-        className={`${
-          isColumn ? "flex gap-4 w-full" : "flex gap-4"
-        }`}
-      >
+      <div className={`${isColumn ? "flex gap-4 w-full" : "flex gap-4"}`}>
         {iconLinks.map((item, idx) => (
           <div
             key={idx}
