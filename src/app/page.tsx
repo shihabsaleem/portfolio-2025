@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -13,31 +13,32 @@ const works = data.works;
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const elements = containerRef.current?.querySelectorAll(".work");
+  useLayoutEffect(() => {
+    const ctx = gsap.context(() => {
+      ScrollTrigger.batch(".work", {
+        onEnter: (batch) =>
+          gsap.to(batch, {
+            opacity: 1,
+            y: 0,
+            stagger: 0.15,
+            duration: 1,
+            ease: "power3.out",
+          }),
+        onLeaveBack: (batch) =>
+          gsap.to(batch, {
+            opacity: 0,
+            y: 50,
+            stagger: 0.1,
+            duration: 0.8,
+            ease: "power3.inOut",
+          }),
+        start: "top 70%",
+        end: "bottom 60%",
+        markers: false,
+      });
+    }, containerRef);
 
-    elements?.forEach((el) => {
-      gsap.fromTo(
-        el,
-        { opacity: 0, y: 50 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 1,
-          ease: "power3.out",
-          scrollTrigger: {
-            trigger: el,
-            start: "top 60%",
-            end: "bottom 60%",
-            toggleActions: "play none none reverse",
-          },
-        }
-      );
-    });
-
-    return () => {
-      ScrollTrigger.getAll().forEach((st) => st.kill());
-    };
+    return () => ctx.revert();
   }, []);
 
   return (
@@ -48,7 +49,7 @@ export default function Home() {
       {works.map((work) => (
         <div
           key={work.id}
-          className={`work flex flex-col lg:flex-row ${
+          className={`work opacity-0 translate-y-[50px] flex flex-col lg:flex-row ${
             work.id % 2 === 0 ? "lg:flex-row-reverse" : ""
           } gap-6 max-w-screen w-full`}
         >
