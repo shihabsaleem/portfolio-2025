@@ -27,7 +27,7 @@ export default function Home() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: el,
-            start: "top 80%",
+            start: "top 60%",
             end: "bottom 60%",
             toggleActions: "play none none reverse",
           },
