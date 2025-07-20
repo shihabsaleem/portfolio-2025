@@ -9,6 +9,14 @@ const works = [
   },
   {
     id: 2,
+    name: "Custom ERP",
+    image: "/assets/erp.jpg",
+    shortdesc: "UI/UX Design",
+    description:
+      "A clean and functional UI/UX design for an ERP product tailored to the needs of the snack manufacturing industry. The system streamlines and manages production, sales, storage, and distribution through an intuitive, user-friendly interface — helping businesses improve efficiency, visibility, and operational control across all departments.",
+  },
+  {
+    id: 3,
     name: "ADOVO",
     image: "/assets/adovo-white.jpg",
     shortdesc: "Branding",
@@ -16,7 +24,7 @@ const works = [
       "The Adovo logo combines a wordmark with an abstract symbol, reflecting the fusion of technology and creativity. Designed with a minimalist approach in midnight blue with white background, it captures the agency's focus on AI-driven innovation with clarity and sophistication.",
   },
   {
-    id: 3,
+    id: 4,
     name: "Jadbery",
     image: "/assets/jadbery.jpg",
     shortdesc: "UI / UX Design",
@@ -24,7 +32,7 @@ const works = [
       "Jadbery is a minimalist website design created for an IT service company portfolio. Focused on clean layouts and simple navigation, the design highlights services, expertise, and case studies with clarity and professionalism, reflecting the brand’s modern and reliable approach to technology solutions.",
   },
   {
-    id: 4,
+    id: 5,
     name: "Milkow",
     image: "/assets/milkow.jpg",
     shortdesc: "Branding & Packaging",
@@ -32,7 +40,7 @@ const works = [
       "The Milkow Fresh logo features a friendly mascot combined with a clean wordmark, creating a memorable and approachable brand identity. Designed in solid black to contrast perfectly with the transparent milk bottles and the white milk inside, the minimalist abstract style ensures clarity and versatility, reflecting freshness and trust for our local unpasteurized cow milk.",
   },
   {
-    id: 5,
+    id: 6,
     name: "Parrot Vacation",
     image: "/assets/parrot.jpg",
     shortdesc: "Branding",
