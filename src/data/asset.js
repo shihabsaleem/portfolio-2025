@@ -3,7 +3,7 @@ const works = [
     id: 1,
     name: "Inventory",
     image: "/assets/inventory.jpg",
-    shortdesc: "UI / UX Designing",
+    shortdesc: "UI / UX Design",
     description:
       "Inventory is a clean, intuitive UI/UX design solution crafted for a mid-sized snack manufacturing company. The design helps streamline the management of storage, production, and inventory processes with user-friendly interfaces focused on clarity and efficiency. Built to support day-to-day operations, it enhances visibility and control across all stages of production and supply..",
   },
@@ -17,6 +17,14 @@ const works = [
   },
   {
     id: 3,
+    name: "Jadbery",
+    image: "/assets/jadbery.jpg",
+    shortdesc: "UI / UX Design",
+    description:
+      "Jadbery is a minimalist website design created for an IT service company portfolio. Focused on clean layouts and simple navigation, the design highlights services, expertise, and case studies with clarity and professionalism, reflecting the brand’s modern and reliable approach to technology solutions.",
+  },
+  {
+    id: 4,
     name: "Milkow",
     image: "/assets/milkow.jpg",
     shortdesc: "Branding & Packaging",
@@ -24,7 +32,7 @@ const works = [
       "The Milkow Fresh logo features a friendly mascot combined with a clean wordmark, creating a memorable and approachable brand identity. Designed in solid black to contrast perfectly with the transparent milk bottles and the white milk inside, the minimalist abstract style ensures clarity and versatility, reflecting freshness and trust for our local unpasteurized cow milk.",
   },
   {
-    id: 4,
+    id: 5,
     name: "Parrot Vacation",
     image: "/assets/parrot.jpg",
     shortdesc: "Branding",
