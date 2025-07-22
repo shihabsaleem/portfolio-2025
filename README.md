@@ -75,32 +75,6 @@ You can customize:
 
 ---
 
-## 🚀 Deployment (GitHub Pages)
-
-This project is deployed on **GitHub Pages** using the `next export` static export feature.
-
-### Build & Export Static Files
-
-```bash
-npm run build
-npm run export
-```
-
-Ensure your `next.config.js` includes the correct `assetPrefix` and `basePath` for GitHub Pages:
-
-```javascript
-const isProd = process.env.NODE_ENV === "production";
-
-module.exports = {
-  assetPrefix: isProd ? "/shihabsaleem.github.io/" : "",
-  basePath: isProd ? "/shihabsaleem.github.io" : "",
-};
-```
-
-Push the contents of the `out/` folder to your `gh-pages` branch (or directly to `main` if configured for GitHub Pages).
-
----
-
 ## 📄 License
 
 Licensed under the **MIT License**.
