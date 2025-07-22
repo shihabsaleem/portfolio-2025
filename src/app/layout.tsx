@@ -17,7 +17,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Shihab",
-  description: "Shihab Rahman Saleem | UI / UX Designer, Developer & Branding Speacialist ",
+  description: "Shihab Rahman Saleem | UI / UX Designer, Developer & Branding Specialist ",
 };
 
 export default function RootLayout({
