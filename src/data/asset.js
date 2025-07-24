@@ -93,7 +93,7 @@ const education = [
 const experience = [
   {
     Company: "Saasyway",
-    Designation: "L1 Fullstack Developer",
+    Designation: "L1 Frontend Developer",
     start: "Jan 2025",
     end: "Jun 2025",
   },
