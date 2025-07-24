@@ -33,6 +33,14 @@ const works = [
   },
   {
     id: 5,
+    name: "Finance",
+    image: "/assets/finance.jpg",
+    shortdesc: "UI / UX Design",
+    description:
+      "A minimal and intuitive UI/UX design for a mobile expense tracking app that helps users monitor their monthly spending, set limits, and view used vs. remaining budgets in real time. The goal is to promote smarter spending habits and avoid overspending through a clean, user-friendly experience.",
+  },
+  {
+    id: 6,
     name: "Milkow",
     image: "/assets/milkow.jpg",
     shortdesc: "Branding & Packaging",
@@ -40,7 +48,7 @@ const works = [
       "The Milkow Fresh logo features a friendly mascot combined with a clean wordmark, creating a memorable and approachable brand identity. Designed in solid black to contrast perfectly with the transparent milk bottles and the white milk inside, the minimalist abstract style ensures clarity and versatility, reflecting freshness and trust for our local unpasteurized cow milk.",
   },
   {
-    id: 6,
+    id: 7,
     name: "Parrot Vacation",
     image: "/assets/parrot.jpg",
     shortdesc: "Branding",
